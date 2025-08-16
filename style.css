@@ -1,4 +1,8 @@
-body{
-    background-color: rgb(22, 20, 25);
-    color: white;
-}
+ body {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Custom styles to prevent layout shift on focus */
+        input:focus {
+            outline: none;
+            border-color: #6366f1; /* Tailwind's indigo-500 */
+        }
